@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="10px" height="18px" viewBox="0 0 10 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>arrow</title>
+    <defs>
+        <polygon id="path-1" points="4.64644661 5.76776695 -3 13.4142136 -3.70710678 12.7071068 4.64644661 4.35355339 13 12.7071068 12.2928932 13.4142136"></polygon>
+    </defs>
+    <g id="Workflow" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <use id="arrow" fill="#FFFFFF" transform="translate(4.646447, 8.883883) rotate(-90.000000) translate(-4.646447, -8.883883) " xlink:href="#path-1"></use>
+    </g>
+</svg>

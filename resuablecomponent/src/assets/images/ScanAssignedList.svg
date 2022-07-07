@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="36px" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 22</title>
+    <defs>
+        <path d="M1.29166667,1.28932244 L1.29166667,16.7611918 L19.375,16.7611918 L19.375,1.28932244 L1.29166667,1.28932244 Z M6.45833333,0 L6.45833333,1.28932244 L14.2083333,1.28932244 L14.2083333,0 L20.6666667,0 L20.6666667,5.15728978 L19.375,5.15728978 L19.375,12.8932244 L20.6666667,12.8932244 L20.6666667,18.0505142 L14.2083333,18.0505142 L14.2083333,16.7611918 L6.45833333,16.7611918 L6.45833333,18.0505142 L0,18.0505142 L0,12.8932244 L1.29166667,12.8932244 L1.29166667,5.15728978 L0,5.15728978 L0,0 L6.45833333,0 Z M9.6875,5.15728978 L10.9791667,5.15728978 L10.9791667,12.8932244 L9.6875,12.8932244 L9.6875,5.15728978 Z M14.2083333,8.38059589 L14.2083333,9.66991833 L6.45833333,9.66991833 L6.45833333,8.38059589 L14.2083333,8.38059589 Z" id="path-1"></path>
+    </defs>
+    <g id="Thermostat" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="5.2.1.-Thermostat-list-" transform="translate(-324.000000, -471.000000)">
+            <g id="LIST" transform="translate(0.000000, 246.000000)">
+                <g id="Group-4" transform="translate(0.000000, 206.624319)">
+                    <g id="Group-22" transform="translate(324.000000, 19.375681)">
+                        <g id="Icon-/-Scan-/-16px">
+                            <g id="Shape" transform="translate(5.166667, 6.446612)">
+                                <mask id="mask-2" fill="white">
+                                    <use xlink:href="#path-1"></use>
+                                </mask>
+                                <use id="Mask" fill="#979797" fill-rule="nonzero" xlink:href="#path-1"></use>
+                                <g id="*Style*-/-Icon-/-Tint-/-Actionable---Light-Background-/-Interactive" mask="url(#mask-2)">
+                                    <g transform="translate(-11.625000, -11.603902)" id="*Style*-/-Color-/-Action-/-Secondary">
+                                        <g>
+                                            <rect id="Light-Theme" fill="#303030" x="0" y="0" width="43.9166667" height="43.8369631"></rect>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                        <g id="Device/-Assigned" transform="translate(19.000000, 16.969147)">
+                            <g id="Assigned">
+                                <ellipse id="Oval" stroke="#FFFFFF" stroke-width="2" fill="#7EB338" cx="8" cy="7.98548094" rx="8" ry="7.98548094"></ellipse>
+                                <polygon id="Fill-4" fill="#FFFFFF" points="12.2402 5.52126134 11.5332 4.81554446 6.5892 9.75057169 4.4672 7.63242287 3.7602 8.33813975 6.2832 10.8585572 6.2912 10.8515699 6.5962 11.1560163"></polygon>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

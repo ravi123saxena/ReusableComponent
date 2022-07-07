@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 91 91" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>Actions / Information / 16px </title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M67.5016875,50.7785625 C65.7804375,50.7785625 64.6835625,51.7854375 64.6835625,53.4954375 C64.6835625,55.3179375 65.7804375,56.2235625 67.5016875,56.2235625 C69.2679375,56.2235625 70.3198125,55.3179375 70.3198125,53.4954375 C70.3198125,51.7854375 69.2679375,50.7785625 67.5016875,50.7785625 M65.8265625,60.2848125 L65.2528125,84.4610625 L69.7921875,84.4610625 L69.2240625,60.2848125 L65.8265625,60.2848125 Z M67.5016875,106.875 C45.7891875,106.875 28.1266875,89.206875 28.1266875,67.5 C28.1266875,45.7875 45.7891875,28.125 67.5016875,28.125 C89.2085625,28.125 106.876687,45.7875 106.876687,67.5 C106.876687,89.206875 89.2085625,106.875 67.5016875,106.875 M67.5016875,22.5 C42.6448125,22.5 22.5016875,42.64875 22.5016875,67.5 C22.5016875,92.35125 42.6448125,112.5 67.5016875,112.5 C92.3529375,112.5 112.501687,92.35125 112.501687,67.5 C112.501687,42.64875 92.3529375,22.5 67.5016875,22.5" id="path-1"></path>
+    </defs>
+    <g id="Master" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Actions-/-Information-/-16px-" fill="#0057A7" transform="translate(-22.000000, -22.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Mask" fill="#0057A7" xlink:href="#path-1"></use>
+            <g id="*Style*-/-Icon-/-Tint-/-Actionable---Light-Background-/-Interactive" fill="none" mask="url(#mask-2)">
+                <g id="*Style*-/-Color-/-Action-/-Secondary" fill="#0057A7">
+                    <rect id="Light-Theme" x="0" y="0" width="135" height="135"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="44px" height="44px" viewBox="0 0 44 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Device/ Assigned Copy 2</title>
+    <defs>
+        <path d="M14,4.5 L14,12.5 L21.5,12.5 L21.5,14 L14,14 L14,21.5 L12.5,21.5 L12.5,14 L4.5,14 L4.5,12.5 L12.5,12.5 L12.5,4.5 L14,4.5 Z" id="path-1"></path>
+    </defs>
+    <g id="IO-configuration" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="4.7.3-connect3-copy-2" transform="translate(-45.000000, -67.000000)">
+            <g id="Device/-Assigned-Copy-2" transform="translate(46.000000, 68.000000)">
+                <g id="Assigned">
+                    <circle id="Oval" stroke="#FFFFFF" stroke-width="2" fill="#B33D38" cx="21" cy="21" r="21"></circle>
+                    <g id="Icon-/-Close-/-16px" transform="translate(9.000000, 9.000000)">
+                        <g id="Shape" transform="translate(-1.000000, -1.000000)">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <use id="Mask" fill="#979797" fill-rule="nonzero" transform="translate(13.000000, 13.000000) rotate(-315.000000) translate(-13.000000, -13.000000) " xlink:href="#path-1"></use>
+                            <g id="*Style*-/-Color-/-Input-Field-/-Active" mask="url(#mask-2)">
+                                <g transform="translate(-4.000000, -4.000000)">
+                                    <g id="*Style*-/-Layers-+-No-Shadows-/-1---Flat" fill-rule="evenodd">
+                                        <rect id="Light-Theme" fill="#FFFFFF" x="0" y="0" width="34" height="34"></rect>
+                                    </g>
+                                    <g id="*Style*-/-Color-/-Component-Group-Outline" stroke-width="1">
+                                        <rect id="Light-Theme" stroke="#D0D0D0" x="0.5" y="0.5" width="33" height="33"></rect>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

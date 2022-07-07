@@ -1,0 +1,82 @@
+{
+    "IcoMoonType":"selection",
+    "icons":[
+       {
+          "icon":{
+             "paths":[
+                "M497.545 655.128l311.454-325.959 30.848 29.476-342.302 358.244-342.302-358.244 30.848-29.476z",
+                "M0 0h1024v1024h-1024v-1024z"
+             ],
+             "attrs":[
+                {
+ 
+                },
+                {
+ 
+                }
+             ],
+             "isMulticolor":false,
+             "isMulticolor2":false,
+             "grid":0,
+             "tags":[
+                "16px"
+             ]
+          },
+          "attrs":[
+             {
+ 
+             },
+             {
+ 
+             }
+          ],
+          "properties":{
+             "order":6,
+             "id":0,
+             "name":"caretdown",
+             "prevSize":32,
+             "code":59648
+          },
+          "setIdx":0,
+          "setId":2,
+          "iconIdx":0
+       }
+    ],
+    "height":1024,
+    "metadata":{
+       "name":"icomoon"
+    },
+    "preferences":{
+       "showGlyphs":true,
+       "showQuickUse":true,
+       "showQuickUse2":true,
+       "showSVGs":true,
+       "fontPref":{
+          "prefix":"icon-",
+          "metadata":{
+             "fontFamily":"icomoon"
+          },
+          "metrics":{
+             "emSize":1024,
+             "baseline":6.25,
+             "whitespace":50
+          },
+          "embed":false
+       },
+       "imagePref":{
+          "prefix":"icon-",
+          "png":true,
+          "useClassSelector":true,
+          "color":0,
+          "bgColor":16777215,
+          "classSelector":".icon",
+          "name":"icomoon",
+          "height":32,
+          "columns":16,
+          "margin":16
+       },
+       "historySize":50,
+       "showCodes":true,
+       "gridSize":16
+    }
+ }

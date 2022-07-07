@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Error</title>
+    <defs>
+        <path d="M8.502,10.9936 L8.502,12.0246 L7.471,12.0246 L7.471,10.9936 L8.502,10.9936 Z M8.502,3.9926 L8.502,10.0096 L7.471,10.0096 L7.471,3.9926 L8.502,3.9926 Z M8.0088,15.0176 C4.1448,15.0176 0.9998,11.8726 0.9998,8.0086 C0.9998,4.1446 4.1448,0.9996 8.0088,0.9996 C11.8728,0.9996 15.0168,4.1446 15.0168,8.0086 C15.0168,11.8726 11.8728,15.0176 8.0088,15.0176 M8.0088,-0.000400000001 C3.5928,-0.000400000001 -0.0002,3.5926 -0.0002,8.0086 C-0.0002,12.4246 3.5928,16.0176 8.0088,16.0176 C12.4238,16.0176 16.0168,12.4246 16.0168,8.0086 C16.0168,3.5926 12.4238,-0.000400000001 8.0088,-0.000400000001" id="path-1"></path>
+    </defs>
+    <g id="Thermostat" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="5.6.2a.-Thermosat-comfort-edit-Copy-2" transform="translate(-27.000000, -487.000000)">
+            <g id="Actions-/-Important-/-16px" transform="translate(27.000000, 487.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Error" fill="#BE271C" xlink:href="#path-1"></use>
+            </g>
+        </g>
+    </g>
+</svg>

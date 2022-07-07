@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="12px" viewBox="0 0 12 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Mask</title>
+    <defs>
+        <path d="M1.11667758,7.34995097 L0.666533333,11.334 L4.46850019,10.7886447 L11.3332,3.996553 L7.92948951,0.667333333 L1.11667758,7.34995097 Z M6.66935516,2.84472493 L7.93016338,1.60894438 L10.3742849,3.99856785 L9.10808576,5.25046728 L6.66935516,2.84472493 Z M1.7588744,7.66158259 L6.18956069,3.31620207 L7.18284306,4.29676707 L3.24542861,8.22171355 L3.72185374,8.69587718 L7.66128979,4.76891584 L8.62963903,5.7246309 L4.15178193,10.1546355 L1.43406971,10.5455183 L1.7588744,7.66158259 Z" id="path-1"></path>
+    </defs>
+    <g id="IO-configuration" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="4.4.5.Lighting-configuration" transform="translate(-150.000000, -56.000000)">
+            <g id="Actions-/-Edit-/-16px" transform="translate(150.000000, 56.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#0057A7" xlink:href="#path-1"></use>
+            </g>
+        </g>
+    </g>
+</svg>

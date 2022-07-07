@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Mask</title>
+    <defs>
+        <path d="M24.4804,11.0626 L23.0664,9.6486 L13.1784,19.5366 L8.9344,15.2926 L7.5204,16.7066 L12.5664,21.7566 L12.5824,21.7426 L13.1924,22.3526 L24.4804,11.0626 Z M16,30.0468 C8.254,30.0468 1.954,23.7468 1.954,16.0008 C1.954,8.2548 8.254,1.9528 16,1.9528 C23.746,1.9528 30.046,8.2548 30.046,16.0008 C30.046,23.7468 23.746,30.0468 16,30.0468 M16,0.0008 C7.178,0.0008 0,7.1768 0,16.0008 C0,24.8228 7.178,32.0008 16,32.0008 C24.822,32.0008 32,24.8228 32,16.0008 C32,7.1768 24.822,0.0008 16,0.0008" id="path-1"></path>
+    </defs>
+    <g id="Thermostat" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Check_Black">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Mask" fill="#FFFFFF" xlink:href="#path-1"></use>
+        </g>
+    </g>
+</svg>

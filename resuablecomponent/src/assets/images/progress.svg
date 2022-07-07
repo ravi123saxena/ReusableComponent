@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="38px" height="38px" viewBox="0 0 38 38" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Device/ Assigned Copy</title>
+    <defs>
+        <path d="M18.5546875,37.109375 C8.30721656,37.109375 0,28.8021584 0,18.5546875 C0,8.30721656 8.30721656,0 18.5546875,0 C28.8021584,0 37.109375,8.30721656 37.109375,18.5546875 C37.109375,28.8021584 28.8021584,37.109375 18.5546875,37.109375 Z M18.5546875,33.984375 C27.0762686,33.984375 33.984375,27.0762686 33.984375,18.5546875 C33.984375,10.0331064 27.0762686,3.125 18.5546875,3.125 C10.0331064,3.125 3.125,10.0331064 3.125,18.5546875 C3.125,27.0762686 10.0331064,33.984375 18.5546875,33.984375 Z" id="path-1"></path>
+    </defs>
+    <g id="Master" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="4.7.3-connect3" transform="translate(-48.000000, -168.000000)">
+            <g id="Progress-Indicator-/-Web-/-Circular-/-Indeterminate" transform="translate(42.000000, 162.000000)">
+                <g id="Progress" stroke-width="1" fill-rule="evenodd" transform="translate(6.640625, 6.640625)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use fill="#F5F5F5" fill-rule="nonzero" xlink:href="#path-1"></use>
+                    <g id="*Style*-/-Color-/-Status-/-Informational" fill="#0057A7" mask="url(#mask-2)">
+                        <g transform="translate(-6.640625, -6.640625)" fill="#1792E5" id="All-Themes">
+                            <rect x="0" y="0" width="50.390625" height="50.390625"></rect>
+                        </g>
+                    </g>
+                </g>
+                <path d="M25.1953125,42.1875 C34.5798385,42.1875 42.1875,34.5798385 42.1875,25.1953125 C42.1875,15.8107865 34.5798385,8.203125 25.1953125,8.203125 C15.8107865,8.203125 8.203125,15.8107865 8.203125,25.1953125 C8.203125,34.5798385 15.8107865,42.1875 25.1953125,42.1875 Z" id="Remain-value---Light-Theme" stroke="#F0F0F0" stroke-width="2.88" stroke-dasharray="81.38880065917968,3599.64" transform="translate(25.195312, 25.195312) scale(-1, -1) translate(-25.195312, -25.195312) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

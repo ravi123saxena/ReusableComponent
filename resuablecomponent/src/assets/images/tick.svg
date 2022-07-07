@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Device/ Assigned</title>
+    <g id="Master" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="2.2.1-Connected-device_tstat" transform="translate(-322.000000, -244.000000)">
+            <g id="Group-4" transform="translate(23.750000, 94.000000)">
+                <g id="Group-2-Copy-2" transform="translate(0.250000, 132.000000)">
+                    <g id="Device/-Assigned" transform="translate(299.000000, 19.000000)">
+                        <g id="Assigned">
+                            <ellipse id="Oval" stroke="#FFFFFF" stroke-width="2" fill="#7EB338" cx="8" cy="7.98548094" rx="8" ry="7.98548094"></ellipse>
+                            <polygon id="Fill-4" fill="#FFFFFF" points="12.2402 5.52126134 11.5332 4.81554446 6.5892 9.75057169 4.4672 7.63242287 3.7602 8.33813975 6.2832 10.8585572 6.2912 10.8515699 6.5962 11.1560163"></polygon>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

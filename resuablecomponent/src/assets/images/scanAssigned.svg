@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="33px" viewBox="0 0 36 33" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 5</title>
+    <g id="Sensor-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="3.1.-Sensor---scanned" transform="translate(-304.000000, -267.000000)">
+            <g id="Group-10" transform="translate(24.000000, 259.000000)">
+                <g id="Group-5" transform="translate(280.000000, 8.000000)">
+                    <g id="Icon-/-Scan-/-16px" transform="translate(0.000000, 0.000000)" stroke="#0057A7">
+                        <g id="Group-16" transform="translate(5.166667, 6.446612)">
+                            <g id="Group-15" stroke-width="1.2">
+                                <g id="Group-8">
+                                    <polyline id="Path-2" points="6.2 0 0 0 0 5.15728978"></polyline>
+                                    <polyline id="Path-2" transform="translate(17.566667, 2.578645) scale(-1, 1) translate(-17.566667, -2.578645) " points="20.6666667 0 14.4666667 0 14.4666667 5.15728978"></polyline>
+                                    <polyline id="Path-2" transform="translate(3.100000, 15.987598) scale(1, -1) translate(-3.100000, -15.987598) " points="6.2 13.4089534 0 13.4089534 0 18.5662432"></polyline>
+                                    <polyline id="Path-2" transform="translate(17.566667, 15.987598) scale(-1, -1) translate(-17.566667, -15.987598) " points="20.6666667 13.4089534 14.4666667 13.4089534 14.4666667 18.5662432"></polyline>
+                                </g>
+                                <line x1="9.81666667" y1="5.82036989" x2="9.81666667" y2="13.7773313" id="Line-4"></line>
+                                <line x1="5.83095238" y1="9.79885057" x2="13.802381" y2="9.79885057" id="Line-5"></line>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Device/-Assigned" transform="translate(19.000000, 15.969147)">
+                        <g id="Assigned">
+                            <ellipse id="Oval" stroke="#FFFFFF" stroke-width="2" fill="#7EB338" cx="8" cy="7.98548094" rx="8" ry="7.98548094"></ellipse>
+                            <polygon id="Fill-4" fill="#FFFFFF" points="12.2402 5.52126134 11.5332 4.81554446 6.5892 9.75057169 4.4672 7.63242287 3.7602 8.33813975 6.2832 10.8585572 6.2912 10.8515699 6.5962 11.1560163"></polygon>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>Actions / Check / 16px</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="19.3141267 6.0006 9.12773766 16.8766 4.6860652 12.1326 4 12.8316 9.12773766 18.3076 20.0001919 6.6996"></polygon>
+    </defs>
+    <g id="Actions-/-Check-/-16px" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <use id="Mask" fill="#FFFFFF" xlink:href="#path-1"></use>
+        <g id="*Style*-/-Icon-/-Tint-/-Actionable---Light-Background-/-Interactive" mask="url(#mask-2)" fill="#FFFFFF">
+            <g id="*Style*-/-Color-/-Action-/-Secondary">
+                <rect id="Light-Theme" x="0" y="0" width="24" height="24"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="17px" height="13px" viewBox="0 0 17 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Equipment_Blue</title>
+    <defs>
+        <path d="M13.0014,0 L13.0014,1 L10.0004,1 L10.0004,5.999 L10.0004,6.999 L10.0004,12 L13.0014,12 L13.0014,13 L16.0004,13 L16.0004,10 L13.0014,10 L13.0014,11 L11.0004,11 L11.0004,6.999 L13.0014,6.999 L13.0014,7.999 L16.0004,7.999 L16.0004,4.999 L13.0014,4.999 L13.0014,5.999 L11.0004,5.999 L11.0004,2 L13.0014,2 L13.0014,3 L16.0004,3 L16.0004,0 L13.0014,0 Z M14.0014,2 L15.0004,2 L15.0004,1 L14.0014,1 L14.0014,2 Z M14.0014,6.999 L15.0004,6.999 L15.0004,5.999 L14.0014,5.999 L14.0014,6.999 Z M14.0014,12 L15.0004,12 L15.0004,11 L14.0014,11 L14.0014,12 Z M-1.77635684e-15,0 L-1.77635684e-15,5.999 L2.001,5.999 L2.001,9 L9.001,9 L9.001,3 L7.001,3 L7.001,0 L-1.77635684e-15,0 Z M1,1 L6.001,1 L6.001,3 L2.001,3 L2.001,4.999 L1,4.999 L1,1 Z M3.001,8 L8.001,8 L8.001,4 L3.001,4 L3.001,8 Z" id="path-1"></path>
+    </defs>
+    <g id="Thermostat" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="5.6.2.-Thermosat-comfort-edit-Copy" transform="translate(-135.000000, -166.000000)">
+            <g id="Group-2" transform="translate(23.000000, 147.000000)">
+                <g id="Group-7">
+                    <g id="编组-10">
+                        <g id="编组-2" transform="translate(87.000000, 0.000000)">
+                            <g id="Group-5">
+                                <g id="Equipment_Blue" transform="translate(25.000000, 19.000000)">
+                                    <g id="Line">
+                                        <polyline id="Stroke-1" stroke="#221F20" points="2.0008 5.5 0.4998 5.5 0.4998 0.5 6.5008 0.5 6.5008 3"></polyline>
+                                        <path d="M13.001,13 L16.001,13 L16.001,10 L13.001,10 L13.001,13 Z M14,12 L15,12 L15,11 L14,11 L14,12 Z" id="Fill-3" fill="#231F20"></path>
+                                        <path d="M13.001,8 L16.001,8 L16.001,5 L13.001,5 L13.001,8 Z M14,7 L15,7 L15,6 L14,6 L14,7 Z" id="Fill-4" fill="#231F20"></path>
+                                        <path d="M13.001,3 L16.001,3 L16.001,0 L13.001,0 L13.001,3 Z M14,2 L15,2 L15,1 L14,1 L14,2 Z" id="Fill-5" fill="#231F20"></path>
+                                        <polyline id="Stroke-6" stroke="#221F20" points="13.0008 11.5 10.5008 11.5 10.5008 1.5 13.0008 1.5"></polyline>
+                                        <line x1="13.0008" y1="6.5" x2="10.0008" y2="6.5" id="Stroke-8" stroke="#221F20"></line>
+                                        <polygon id="Stroke-9" stroke="#221F20" points="2.501 8.5 8.501 8.5 8.501 3.5 2.501 3.5"></polygon>
+                                    </g>
+                                    <mask id="mask-2" fill="white">
+                                        <use xlink:href="#path-1"></use>
+                                    </mask>
+                                    <use id="Mask" fill="#303030" xlink:href="#path-1"></use>
+                                    <g id="*Style*/Icon/Tint/Actionable---Light-Background/编组/Interactive-blue" mask="url(#mask-2)">
+                                        <g transform="translate(-4.000000, -6.000000)">
+                                            <g id="*Style*-/-Color-/-Action-/-Secondary" fill="none">
+                                                <rect id="Light-Theme" fill="#303030" x="0" y="0" width="24" height="24"></rect>
+                                            </g>
+                                            <rect id="矩形" fill="#0057A7" x="0" y="0" width="24" height="24"></rect>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
