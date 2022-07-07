@@ -31,6 +31,7 @@ export default Home = ({ navigation, routes }) => {
         navigation.navigate(navigationStrings.COMP_NINE)
     else if(index == 9)
         navigation.navigate(navigationStrings.COMP_TEN)
+    
   }
   const renderItems = ({item, index})=>{
     return(

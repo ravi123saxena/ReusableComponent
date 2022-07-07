@@ -13,7 +13,7 @@ export default styles = ScaledSheet.create({
         borderColor: '#fff',
         height: '40@ms',
         borderRadius: '5@ms', 
-        margin: '5@ms',
+        margin: '40@ms',
 
     },
     ImageIconStyle: {

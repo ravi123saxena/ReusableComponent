@@ -6,30 +6,30 @@ import { STATUS } from '../constants/constants';
 
 export default CompEight = ({ navigation }) => {
     const [visible, setVisible] = useState(true)
-    const [templateName, setTemplateName] = useState({value: '', borderColor: STATUS.inactive, error: ''})
-    const [templateDescription, setTemplateDescription] = useState({value: '', borderColor: STATUS.inactive, error: ''})
+    const [templateName, setTemplateName] = useState({ value: '', borderColor: STATUS.inactive, error: '' })
+    const [templateDescription, setTemplateDescription] = useState({ value: '', borderColor: STATUS.inactive, error: '' })
 
     const handleModalClose = () => {
         setVisible(false)
     };
-    
+
     const handleNameChange = (text) => {
         setTemplateName({
             ...templateName,
             value: text,
         })
     };
-    
+
     const handleDescriptionChange = (text) => {
         setTemplateDescription({
             ...templateDescription,
             value: text,
         })
-      };
-    
+    };
+
     return (
         <View style={{ flex: 1, }}>
-            <DisplayModalWithTextInput
+             <DisplayModalWithTextInput
                 display={visible}
                 templateName={templateName}
                 templateDescription={templateDescription}
@@ -41,8 +41,8 @@ export default CompEight = ({ navigation }) => {
                 onClose={handleModalClose}
                 showCancelButton={true}
                 customModalContainerStyle={styles.viewModalHeight}
-            />
-        </View>
+            /> 
+            </View>
     );
 };
 

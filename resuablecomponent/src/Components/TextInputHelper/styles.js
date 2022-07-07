@@ -11,7 +11,7 @@
  */
 import { StyleSheet } from 'react-native';
 import { Fonts, Color } from '../../Components/styles/themes';
-import { DEVICE_HEIGHT, DEVICE_WIDTH } from '../../constants/constants';
+import { DEVICE_HEIGHT, DEVICE_WIDTH, TEXT_INPUT_CONTAINER_HEIGHT } from '../../constants/constants';
 
 const styles = StyleSheet.create({
   interactiveTextInputContainer: {

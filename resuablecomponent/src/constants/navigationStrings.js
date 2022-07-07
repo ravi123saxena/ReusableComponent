@@ -9,5 +9,8 @@ export default {
     COMP_SEVEN: 'CompSeven',
     COMP_EIGHT: 'CompEight',
     COMP_NINE: 'CompNine',
-    COMP_TEN: 'CompTen'
+    COMP_TEN: 'CompTen',
+    COMP_ELEVEN: 'CompEleven',
+    COMP_TWELVE: 'CompTwelve',
+    COMP_THIRTEEN: 'CompThirteen'
 }
