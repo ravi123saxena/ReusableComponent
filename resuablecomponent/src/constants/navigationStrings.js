@@ -15,5 +15,6 @@ export default {
     COMP_THIRTEEN: 'CompThirteen',
     COMP_FOURTEEN: 'CompFourteen',
     COMP_FIFTEEN: 'CompFifteen',
-    COMP_SIXTEEN: 'CompSixteen'
+    COMP_SIXTEEN: 'CompSixteen',
+    COMP_SEVENTEEN: 'CompSeventeen'
 }

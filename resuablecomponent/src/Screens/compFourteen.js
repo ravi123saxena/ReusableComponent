@@ -10,7 +10,7 @@ export default CompFourteen = ({ navigation }) => {
         <>
             <HeaderBar
                 leftIconName={'chevron-left'}
-                text={'Review Raitings'}
+                text={'Switch'}
                 handleLeftIconPress={() => navigation.goBack()} />
             <View style={{ flex: 1, marginVertical: 20, justifyContent: 'flex-start', alignItems: 'center' }}>
                 <SwitchControl
