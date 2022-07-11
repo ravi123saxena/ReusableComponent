@@ -10,13 +10,13 @@ import navigationStrings from '../constants/navigationStrings';
 export default Home = ({ navigation, routes }) => {
   const DATA = ['CHAT CARD', 'CUSTOM BUTTON', 'IMAGE CARD', 'POST CARD', 'IMAGE CARD WITH SHADOW TITLE',
 'DROPDOWN BUTTON', 'ON-BOARDING', 'MODAL WITH TEXT', 'MODAL WITH IMAGE', 'MODAL WITH TEXTINPUT', 'CUSTOM DIALOG BOX',
-'CHECKBOX', 'ACTION SHEET', 'SWITCH BUTTON', 'CUSTOM ALERT', 'CONTEXT MENU', 'INFO BLOCK']
+'CHECKBOX', 'ACTION SHEET', 'SWITCH BUTTON', 'CUSTOM ALERT', 'CONTEXT MENU', 'INFO BLOCK', 'IMAGE PICKER']
 
   const navigationArray = [navigationStrings.COMP_ONE, navigationStrings.COMP_TWO, navigationStrings.COMP_THREE,
     navigationStrings.COMP_FOUR, navigationStrings.COMP_FIVE, navigationStrings.COMP_SIX, navigationStrings.COMP_SEVEN,
     navigationStrings.COMP_EIGHT, navigationStrings.COMP_NINE, navigationStrings.COMP_TEN, navigationStrings.COMP_ELEVEN,
     navigationStrings.COMP_TWELVE, navigationStrings.COMP_THIRTEEN, navigationStrings.COMP_FOURTEEN, navigationStrings.COMP_FIFTEEN,
-    navigationStrings.COMP_SIXTEEN, navigationStrings.COMP_SEVENTEEN]
+    navigationStrings.COMP_SIXTEEN, navigationStrings.COMP_SEVENTEEN, navigationStrings.COMP_EIGHTEEN]
  
     const onPress = (index) => {
     navigation.navigate(navigationArray[index]) ;    

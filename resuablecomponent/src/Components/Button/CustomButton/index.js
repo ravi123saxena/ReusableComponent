@@ -1,7 +1,6 @@
 import React from 'react';
 import { View, Text, ActivityIndicator } from 'react-native';
 import MaterialIcon from 'react-native-vector-icons/MaterialIcons';
-
 import styles from './styles';
 import styleConstants from '../../styles/styleConstants';
 import Touchable from '../../Touchable';
