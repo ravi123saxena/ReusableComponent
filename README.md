@@ -11,6 +11,8 @@ Components:
  ButtonIcon - A round button that contains an icon.
  CheckBox - A nice and simple checkbox component.
  Modal - A modal that used to present content above an enclosing view.
+ SuccessModal - Show modal to confirm success for any particular event done.
+ ModalWithTextInput- A custom Modal with textinput to enter some data.
  HeaderBar - A header component that accepts status bar styles, text and left and right icons.
  IconTextRow - A row with icon and text justified with space-between
  InfoBlock - A common title and description patterned component.
