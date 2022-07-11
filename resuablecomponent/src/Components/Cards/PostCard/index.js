@@ -8,7 +8,7 @@ export default PostCard = () =>  {
             <View style={styles.container1}>
                 <View style={styles.image1Viewstyle}>
                     <Image style={styles.image1style}
-                        source={{ uri: "https://cdn-icons-png.flaticon.com/512/149/149071.png" }} />
+                        source={require('../../../assets/images/userhead.png')} />
                 </View>
                 <View style={styles.viewName}>
                     <View>
@@ -20,7 +20,7 @@ export default PostCard = () =>  {
                 </View>
             </View>
             <View style={styles.viewImage}>
-                <Image style={styles.styleImage} source={{ uri: "https://img.traveltriangle.com/blog/wp-content/uploads/2018/07/San-Blas-panama-Islands.jpg" }} />
+                <Image style={styles.styleImage} source={require('../../../assets/images/postbg.png')} />
             </View>
             <View>
                 <Text style={styles.postTitle}>Hotel Panama Garden</Text>

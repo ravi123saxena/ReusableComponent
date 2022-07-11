@@ -18,6 +18,8 @@ import CompTwelve from '../Screens/compTwelve';
 import CompThirteen from '../Screens/compThirteen';
 import CompFourteen from '../Screens/compFourteen';
 import CompFifteen from '../Screens/compFifteen';
+import CompSixteen from '../Screens/compSixteen';
+
 
 const Stack = createNativeStackNavigator();
 
@@ -41,6 +43,7 @@ export default Routes = () => {
                 <Stack.Screen name={navigationStrings.COMP_THIRTEEN} component={CompThirteen} />
                 <Stack.Screen name={navigationStrings.COMP_FOURTEEN} component={CompFourteen} />
                 <Stack.Screen name={navigationStrings.COMP_FIFTEEN} component={CompFifteen} />
+                <Stack.Screen name={navigationStrings.COMP_SIXTEEN} component={CompSixteen} />
 
 
             </Stack.Navigator>

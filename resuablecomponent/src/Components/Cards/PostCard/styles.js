@@ -41,7 +41,7 @@ export default styles = ScaledSheet.create({
     viewImage: {
         height: '250@ms',
         width: "100%",
-        backgroundColor: "pink",
+        backgroundColor: "red",
         marginTop: '10@ms',
     },
     styleImage: {
