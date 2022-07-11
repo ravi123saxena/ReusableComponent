@@ -15,7 +15,7 @@ Components:
  ModalWithTextInput- A custom Modal with textinput to enter some data.
  HeaderBar - A header component that accepts status bar styles, text and left and right icons.
  IconTextRow - A row with icon and text justified with space-between
- InfoBlock - A common title and description patterned component.
+ InfoBlock - A common title and description patterned component directly used with flatlist item.
  Touchable - A touchable component that renders the android ripple effect if specified and if on an Android device (used internally).
  Switch: A switch component to toggle on/off.
  Cards: A different types of customized card directly used with the other components.
