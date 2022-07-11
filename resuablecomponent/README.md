@@ -6,6 +6,8 @@ A collection of simple, customisable reusable react-native components with a cus
 ## Installation
 
 ```shell
+git clone https://github.com/ravi123saxena/ReusableComponent.git
+cd ReusableComponent
 yarn install
 pod install
 ```
