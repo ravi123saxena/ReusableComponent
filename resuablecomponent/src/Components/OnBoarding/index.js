@@ -28,7 +28,7 @@ const slides = [
   },
 ];
 
-export default class StepModal extends React.Component {
+export default class OnBoarding extends React.Component {
   state = { showHomePage: false };
   _renderItem = ({ item }) => {
     return (
@@ -68,7 +68,6 @@ export default class StepModal extends React.Component {
 
   render() {
     return (
-      <Modal isVisible={true}>
         <View style={styles.modal}>
           <View style={styles.innerContainer} />
           <AppIntroSlider
@@ -80,7 +79,6 @@ export default class StepModal extends React.Component {
             }}
           />
         </View>
-      </Modal>
     );
   }
 }

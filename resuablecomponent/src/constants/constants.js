@@ -1,5 +1,7 @@
 import { Dimensions, Platform } from "react-native";
 import ExtraDimensions from "react-native-extra-dimensions-android";
+export const DEFAULT_DRAGGABLE_SPACING = 60;
+export const DEFAULT_DRAG_HEIGHT = 20;
 
 const guidelineBaseWidth = 375;
 const guidelineBaseHeight = 812;
@@ -56,4 +58,9 @@ export const STATUS = {
   error: 'error',
   normal: 'normal',
   important: 'important',
+};
+
+export const ALERT = {
+  cancel: 'cancel',
+  ok: 'ok',
 };

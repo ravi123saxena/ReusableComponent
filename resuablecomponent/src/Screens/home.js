@@ -9,7 +9,8 @@ import navigationStrings from '../constants/navigationStrings';
 
 export default Home = ({ navigation, routes }) => {
   const DATA = ['CHAT CARD', 'CUSTOM BUTTON', 'IMAGE CARD', 'POST CARD', 'IMAGE CARD WITH SHADOW TITLE',
-'DropDown Button', 'ON-BOARDING', 'MODAL WITH TEXT', 'Modal With Image', 'Modal With TextInput']
+'DropDown Button', 'ON-BOARDING', 'MODAL WITH TEXT', 'Modal With Image', 'Modal With TextInput', 'CUSTOM DIALOG BOX',
+'CHECKBOX', 'ACTION SHEET', 'STAR RATINGS', 'Custom Alert']
   const onPress = (index) => {
     if(index == 0)
         navigation.navigate(navigationStrings.COMP_ONE) 
@@ -31,6 +32,17 @@ export default Home = ({ navigation, routes }) => {
         navigation.navigate(navigationStrings.COMP_NINE)
     else if(index == 9)
         navigation.navigate(navigationStrings.COMP_TEN)
+    else if(index == 10)
+        navigation.navigate(navigationStrings.COMP_ELEVEN)
+    else if(index == 11)
+        navigation.navigate(navigationStrings.COMP_TWELVE);
+    else if(index == 12)
+        navigation.navigate(navigationStrings.COMP_THIRTEEN);
+    else if(index == 13)
+        navigation.navigate(navigationStrings.COMP_FOURTEEN);
+    else if(index == 14)
+        navigation.navigate(navigationStrings.COMP_FIFTEEN);
+
     
   }
   const renderItems = ({item, index})=>{

@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { View } from 'react-native';
+import HeaderBar from '../Components/Header';
 import { DisplayModal } from '../Components/Modal/Modal';
 
 export default CompEight = ({ navigation }) => {
@@ -15,6 +16,10 @@ export default CompEight = ({ navigation }) => {
     }
     return (
         <View style={{ flex: 1, }}>
+             <HeaderBar
+                leftIconName={'chevron-left'}
+                text={'Modal With Text'}
+                handleLeftIconPress={() => navigation.goBack()} />
             <DisplayModal
                 display={visible}
                 headingText={'Custom Modal'}

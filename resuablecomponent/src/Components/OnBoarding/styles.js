@@ -7,12 +7,14 @@ export default styles = StyleSheet.create({
       alignItems: "center",
       justifyContent: "center",
     },
+    viewContainer: {
+       width: '100%', 
+       height: 0.5,
+      backgroundColor: '#fff' 
+    },
     innerContainer: {
-      marginTop: 17,
-      backgroundColor: "#ffffff",
-      marginLeft: 10,
-      marginRight: 10,
-      alignItems: "center",
+      flexDirection: 'row', 
+      height: '30%' 
     },
     modal: {
       backgroundColor: "#ffffff",
@@ -20,4 +22,9 @@ export default styles = StyleSheet.create({
       paddingBottom: 10,
       flex: 1
     },
+    mainAlertView: {
+      width: 0.5, 
+      height: '100%', 
+      backgroundColor: '#fff' 
+    }
   });

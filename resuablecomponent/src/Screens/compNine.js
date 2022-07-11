@@ -1,25 +1,28 @@
 import React, { useState } from 'react';
 import { View } from 'react-native';
-import {DisplayModalWithImage} from '../Components/Modal/ModalWithImage';
-import { styles } from '../Components/styles/styles';
+import HeaderBar from '../Components/Header';
+// import DisplayModalWithTextInput from '../Components/Modal/ModalWithTextInput';
+
 
 export default CompNine = ({ navigation }) => {
     const [visible, setVisible] = useState(true)
-    const handleCloseSuccessModal = () => {
-        setVisible(false)
+    const submitInput = (inputText) => {
+        console.log("sendInput (DialogInput#1): "+inputText);
     }
     return (
         <View style={{ flex: 1 }}>
-            <DisplayModalWithImage
-                display={visible}
-                message={'You have succcessfully registered'}
-                headingText={'Register'}
-                buttonText={'DONE'}
-                onConfirm={handleCloseSuccessModal}
-                onClose={handleCloseSuccessModal}
-                customModalContainerStyle={styles.viewModalHeight}
-                showImage
-            />
+            <HeaderBar
+                leftIconName={'chevron-left'}
+                text={'Modal With Image'}
+                handleLeftIconPress={() => navigation.goBack()} />
+            {/* <DisplayModalWithTextInput 
+                isDialogVisible={visible}
+                title={"Modal With Text Input"}
+                message={"This is a custom message"}
+                hintInput={"Enter Name"}
+                submitInput={(inputText) => { submitInput(inputText) }}
+                closeDialog={() => setVisible(false)}>
+            </DisplayModalWithTextInput> */}
         </View>
     );
 };

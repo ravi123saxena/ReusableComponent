@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { View } from 'react-native';
+import HeaderBar from '../Components/Header';
 import { DisplayModalWithTextInput } from '../Components/Modal/ModalWithTextInput';
 import { styles } from '../Components/styles/styles';
 import { STATUS } from '../constants/constants';
@@ -29,6 +30,10 @@ export default CompEight = ({ navigation }) => {
 
     return (
         <View style={{ flex: 1, }}>
+             <HeaderBar
+                leftIconName={'chevron-left'}
+                text={'Modal With TextInput'}
+                handleLeftIconPress={() => navigation.goBack()} />
              <DisplayModalWithTextInput
                 display={visible}
                 templateName={templateName}

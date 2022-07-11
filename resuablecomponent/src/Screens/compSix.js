@@ -1,6 +1,7 @@
 import React from 'react';
-import { View, Text } from 'react-native';
+import { View } from 'react-native';
 import CustomDropDown from '../Components/Button/DropDown'
+import HeaderBar from '../Components/Header';
 
 export default CompSix = ({ navigation }) => {
     const countries = [
@@ -11,11 +12,17 @@ export default CompSix = ({ navigation }) => {
         'Brazil'
     ];
     return (
-        <View style={{ flex: 1, justifyContent: 'center', backgroundColor: '#FFF', alignItems: 'center' }}>
-            <CustomDropDown
-                countries={countries}
-                onSelect={(selectedItem, index) => console.log('selected item', selectedItem, index)}
-            />
-        </View>
+        <>
+            <HeaderBar
+                leftIconName={'chevron-left'}
+                text={'Drop Down'}
+                handleLeftIconPress={() => navigation.goBack()} />
+            <View style={{ flex: 1, justifyContent: 'center', backgroundColor: '#FFF', alignItems: 'center' }}>
+                <CustomDropDown
+                    countries={countries}
+                    onSelect={(selectedItem, index) => console.log('selected item', selectedItem, index)}
+                />
+            </View>
+        </>
     );
 };

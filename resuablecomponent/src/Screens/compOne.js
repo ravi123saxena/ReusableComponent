@@ -2,6 +2,7 @@
 import React from 'react';
 import { View, StyleSheet, FlatList } from 'react-native';
 import ChatCard from '../Components/Cards/ChatCard';
+import HeaderBar from '../Components/Header';
 
 export default CompOne = ({ navigation }) => {
     const DATA = [
@@ -63,6 +64,11 @@ export default CompOne = ({ navigation }) => {
     
       return (
         <View style={styles.container}>
+           <HeaderBar 
+            leftIconName= {'chevron-left'}
+            text={'CHAT CARD'}
+            handleLeftIconPress={()=>navigation.goBack()}
+            />
           <FlatList
             data={DATA}
             renderItem={renderItems}

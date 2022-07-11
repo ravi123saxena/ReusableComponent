@@ -1,24 +1,26 @@
 import React from 'react';
-import { View, Text } from 'react-native';
-import  { CustomButton } from '../Components/Button/CustomButton'
-import GoogleButton from '../Components/Button/GoogleButton';
+import { View } from 'react-native';
+import ButtonIcon from '../Components/Button/ButtonIcon';
+import  CustomButton  from '../Components/Button/CustomButton'
+import HeaderBar from '../Components/Header';
 export default CompTwo = ({ navigation }) => {
-    const onClick = () => {
-        console.log('clicked')
-    }
     return (
         <View style={{flex:1}}>
-           {/* <Text style={{marginVertical:20, color:'#000'}}>Solid Button without border</Text> 
-           <CustomButton btnText={'Continue'} />
-           <Text style={{marginVertical:20, color:'#000'}}>Solid Button With border</Text> 
-           <CustomButton btnText={'Continue'} border/>
-           <Text style={{marginVertical:20, color:'#000'}}>Google Plus Button</Text> 
-           <GoogleButton/> */}
-            <CustomButton
-                text={'Continue'}
-                onPress={onClick}
+            <HeaderBar 
+                leftIconName= {'chevron-left'}
+                text={'Button'}
+                handleLeftIconPress={()=>navigation.goBack()}
             />
-            <GoogleButton/>
+            <View style={{marginVertical:60}}/>
+            <CustomButton
+               iconName= {'search'}
+               text= {'Search'}
+               textStyle={{color:'#fff'}}
+               iconStyle={{color:'#fff'}}
+               style={{marginHorizontal: 40, backgroundColor: 'red', borderRadius: 5}}
+            />
+            <View style={{marginVertical:40, justifyContent:'center', alignItems:'center'}}/>
+            <ButtonIcon iconName={'phone-android'} style={{alignSelf:'center'}} />
         </View>
     );
 };
