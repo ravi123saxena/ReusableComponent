@@ -11,7 +11,7 @@ export default CompFour = ({ navigation }) => {
                 text={'Post Card'}
                 handleLeftIconPress={() => navigation.goBack()} />
             <View style={{ flex: 1, marginVertical: 20, justifyContent: 'flex-start', alignItems: 'center' }}>
-                <PostCard />
+                <PostCard title="John Doe" subTitle="Dec 10, 2019"/>
             </View>
         </>
     );
