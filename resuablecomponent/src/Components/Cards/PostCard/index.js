@@ -1,8 +1,9 @@
 import { View, Text, Image } from 'react-native'
 import React from 'react'
 import styles from './styles'
+import Icon from 'react-native-vector-icons/FontAwesome';
 
-export default PostCard = () =>  {
+export default PostCard = ({title , subTitle}) =>  {
     return (
         <View style={styles.container}>
             <View style={styles.container1}>
@@ -12,10 +13,10 @@ export default PostCard = () =>  {
                 </View>
                 <View style={styles.viewName}>
                     <View>
-                        <Text style={styles.title}>John Doe</Text>
+                        <Text style={styles.title}>{title}</Text>
                     </View>
                     <View>
-                        <Text style={styles.dateStyle}>Dec 10, 2019</Text>
+                        <Text style={styles.dateStyle}>{subTitle}</Text>
                     </View>
                 </View>
             </View>
@@ -31,8 +32,7 @@ export default PostCard = () =>  {
 
             <View style={styles.container2}>
                 <View style={styles.container3}>
-                    <Image style={styles.iconStyle}
-                        source={{uri:"https://cdn-icons.flaticon.com/png/512/1062/premium/1062675.png?token=exp=1654687427~hmac=196b07044654d52678b0c442fe85184c"}} />
+                    <Icon name="thumbs-o-up" size={25} color="black" />
                     <View>
                         <Text style={styles.c3text}>1.5k Likes</Text>
                     </View>
