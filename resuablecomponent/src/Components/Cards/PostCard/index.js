@@ -2,13 +2,16 @@ import { View, Text, Image } from 'react-native'
 import React from 'react'
 import styles from './styles'
 import Icon from 'react-native-vector-icons/FontAwesome';
+import { useState } from 'react';
 
 export default PostCard = ({title , subTitle}) =>  {
+    
     return (
         <View style={styles.container}>
             <View style={styles.container1}>
                 <View style={styles.image1Viewstyle}>
-                    <Image style={styles.image1style}
+                    <Image onLoad={()=>{console.log("Load 1")}} 
+                    style={styles.image1style}
                         source={require('../../../assets/images/userhead.png')} />
                 </View>
                 <View style={styles.viewName}>
@@ -21,7 +24,9 @@ export default PostCard = ({title , subTitle}) =>  {
                 </View>
             </View>
             <View style={styles.viewImage}>
-                <Image style={styles.styleImage} source={require('../../../assets/images/postbg.png')} />
+                <Image onLoad={()=>{console.log("Load !!!!")}} 
+                style={styles.styleImage}
+                 source={require('../../../assets/images/userhead.png')} />
             </View>
             <View>
                 <Text style={styles.postTitle}>Hotel Panama Garden</Text>
@@ -39,16 +44,15 @@ export default PostCard = ({title , subTitle}) =>  {
                 </View>
 
                 <View style={styles.container3}>
-                    <Image style={styles.iconStyle}
-                        source={{uri:"https://cdn-icons-png.flaticon.com/512/1380/1380338.png"}} />
+                    <Icon name="comments-o" size={25} color="black" />
                     <View>
                         <Text style={styles.c3text}>4 comments</Text>
                     </View>
                 </View>
 
                 <View style={styles.container3}>
-                    <Image style={styles.iconStyle}
-                        source={{uri:"https://cdn-icons-png.flaticon.com/512/992/992700.png"}} />
+                    
+                    <Icon name="clock-o" size={25} color="black" />
                     <View>
                         <Text style={styles.c3text}>11h ago</Text>
                     </View>
