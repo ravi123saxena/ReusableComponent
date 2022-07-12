@@ -8,7 +8,7 @@ export default CompSeven = ({ navigation }) => {
         <View style={{ flex: 1 }}>
             <HeaderBar
                 leftIconName={'chevron-left'}
-                text={'On Boarding'}
+                text={'Info Block'}
                 handleLeftIconPress={() => navigation.goBack()} />   
             
             <InfoBlock 
