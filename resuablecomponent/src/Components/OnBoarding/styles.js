@@ -1,30 +1,37 @@
 import { StyleSheet } from "react-native";
+import { DEVICE_WIDTH } from "../../constants/constants";
 
 export default styles = StyleSheet.create({
+    buttonLabelContainer: {
+      padding: 12
+    },
+    textLableContainer: {
+      color: '#072F4A',
+      fontWeight: '600',
+      fontSize: 22,
+    },
     container: {
       flex: 1,
-      backgroundColor: "#fff",
-      alignItems: "center",
-      justifyContent: "center",
+      alignItems: 'center',
+      padding: 15,
+      paddingTop: 100,
     },
-    viewContainer: {
-       width: '100%', 
-       height: 0.5,
-      backgroundColor: '#fff' 
+    imageContainer: {
+      width: DEVICE_WIDTH - 80,
+      height: 400,
     },
-    innerContainer: {
-      flexDirection: 'row', 
-      height: '30%' 
+    titleContainer: {
+      fontWeight: 'bold',
+      color: '#072F4A',
+      fontSize: 16,
     },
-    modal: {
-      backgroundColor: "#ffffff",
-      borderRadius: 8,
-      paddingBottom: 10,
-      flex: 1
+    descriptionContainer: {
+      textAlign: 'center',
+      paddingTop: 5,
+      color: '#072F4A',
     },
-    mainAlertView: {
-      width: 0.5, 
-      height: '100%', 
-      backgroundColor: '#fff' 
+    dotStyle: {
+      backgroundColor: '#f52d56',
+      width: 30,
     }
   });
