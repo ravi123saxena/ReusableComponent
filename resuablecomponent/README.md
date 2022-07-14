@@ -35,4 +35,6 @@ See the source code for examples in App.js.
 - [x] Modal - A modal that used to present content above an enclosing view.
 - [x] SuccessModal - Show modal to confirm success for any particular event done.
 - [x] ModalWithTextInput- A custom Modal with textinput to enter some data.
+- [x] Picker Image from gallery.
+- [x] Download PDF files.
 
