@@ -1,86 +1,86 @@
 
+import { StyleSheet } from 'react-native';
 
-import { ScaledSheet } from 'react-native-size-matters';
-export default styles = ScaledSheet.create({
+export default styles = StyleSheet.create({
     container: {
-        margin: '10@ms',
-        paddingTop:'5@ms',
-        borderWidth:'2@ms',
+        flex:1,
+        margin: 10,
+        paddingTop:5,
+        borderWidth: 20,
         borderColor:"grey",
-        borderRadius:'20@ms',
+        borderRadius:20,
         backgroundColor:"white",
-        elevation:'20@ms'
+        elevation: 20,
+        marginVertical: 5,
     },
-    container1: {
+    innerContainer: {
         flexDirection: "row",
         justifyContent: "flex-start",
- 
     },
-    container2: {
+    innerSubContainer: {
         flexDirection: "row",
         justifyContent: "space-evenly",
-        paddingVertical:'5@ms',
+        paddingVertical: 5,
         borderTopWidth:1
     },
-    container3:{
-        marginTop:'10@ms',
+    iconContainer:{
+        marginTop:10,
         justifyContent:"space-between",
         alignItems:"center",
     },
-    image1Viewstyle: {
-        marginHorizontal: '10@ms',
+    imageContainerViewstyle: {
+        marginHorizontal: 10,
         justifyContent:"center",
         alignItems:"center",
-        paddingLeft:'10@ms' 
+        paddingLeft:10 
     },
-    image1style: {
-        height: '60@ms',
-        width: '60@ms',
-        borderRadius:'30@ms'
+    imageStyle: {
+        height: 60,
+        width: 60,
+        borderRadius: 30
     },
     viewImage: {
-        height: '250@ms',
+        height: 250,
         width: "100%",
         backgroundColor: "red",
-        marginTop: '10@ms',
+        marginTop: 10,
     },
     styleImage: {
-        height: '250@ms',
+        height: 250,
         width: "100%",
 
     },
     title: {
-        fontSize: '25@ms',
+        fontSize: 25,
         fontWeight:"bold",
         color:"black"
     },
     dateStyle: {
-        fontSize: '25@ms',
+        fontSize: 25,
         fontWeight:"bold"
 
     },
     postTitle: {
-        fontSize: '30@ms',
+        fontSize: 30,
         fontWeight: "bold",
-        marginVertical: '20@ms',
-        marginHorizontal: '15@ms'
+        marginVertical: 20,
+        marginHorizontal: 15
     },
     postDescription: {
-        fontSize: '22@ms',
-        fontWeight: "400",
-        marginBottom: '20@ms',
-        marginHorizontal: '15@ms'
+        fontSize: 18,
+        marginBottom: 20,
+        marginHorizontal: 15
     },
     iconStyle: {
-        height: '20@ms',
-        width: '20@ms'
+        height: 20,
+        width: 20
     },
-    c3text:{
-        fontSize:'15@ms',
+    likeText:{
+        fontSize: 15,
         fontWeight:"bold"
     },
     viewName:{
-        paddingLeft:'5@ms',
+        paddingLeft:5,
         justifyContent:"center"
     }
 
