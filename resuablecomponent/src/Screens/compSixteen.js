@@ -22,10 +22,10 @@ export default CompSixteen = ({ navigation }) => {
                    anchorname={'Show Menu'}
                    showMenu={showMenu}
                    hideMenu={hideMenu}
-                   item1={'# Label 1'}
-                   item2={'# Label 2'}
-                   item3={'# Label 3'}
-                   item4={'# Label 4'}
+                   item1={'# Settings'}
+                   item2={'# About'}
+                   item3={'# Profile'}
+                   item4={'# History'}
                 />
              </View>   
             

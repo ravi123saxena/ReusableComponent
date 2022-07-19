@@ -19,7 +19,17 @@ export default CompTwo = ({ navigation }) => {
                iconStyle={{color:'#fff'}}
                style={{marginHorizontal: 40, backgroundColor: 'red', borderRadius: 5}}
             />
-            <View style={{marginVertical:40, justifyContent:'center', alignItems:'center'}}/>
+             <CustomButton
+               text= {'Continue'}
+               textStyle={{color:'#fff'}}
+               style={{marginHorizontal: 40, marginVertical: 10, borderWidth: 0,  backgroundColor: 'blue', borderRadius: 15}}
+            />
+            <CustomButton
+               text= {'Continue'}
+               textStyle={{color:'#fff'}}
+               style={{marginHorizontal: 40, marginVertical: 10, borderWidth: 0,  backgroundColor: 'green', borderRadius: 25}}
+            />
+            <View style={{marginVertical:10, justifyContent:'center', alignItems:'center'}}/>
             <ButtonIcon iconName={'phone-android'} style={{alignSelf:'center'}} />
         </View>
     );

@@ -77,7 +77,7 @@ export default styles = StyleSheet.create({
     paddingTop: verticalScale(20),
     paddingVertical:10,
     height: verticalScale(80),
-    backgroundColor:"#abb3af", // grey
+    backgroundColor:"#fff", // grey
     borderRadius: moderateScale(10),
     margin: moderateScale(10),
     elevation: 20 ,// android prop
@@ -107,7 +107,7 @@ export default styles = StyleSheet.create({
   } ,
   textSubTitle:{
     width:"100%",
-    fontWeight:"600",
+    fontSize: 18,
     color:"#807c7e",
     fontSize:scale(10)
   },
@@ -119,13 +119,14 @@ export default styles = StyleSheet.create({
     //flex:1,
     justifyContent:"center",
     alignItems:"center",
-    backgroundColor:"red", // dark pink
+    borderWidth: 1,
+    borderColor:"red", // dark pink
     width: moderateScale(35),
     height: verticalScale(35),
     borderRadius:moderateScale(35),
   },
   messageNum:{
-    color:"white",
+    color:"#000",
     fontSize:scale(12),
     fontWeight: "normal"
   },

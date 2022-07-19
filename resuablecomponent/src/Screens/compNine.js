@@ -14,8 +14,8 @@ export default CompNine = ({ navigation }) => {
                 handleLeftIconPress={() => navigation.goBack()} />
            <DisplayModalWithImage
                 display={visible}
-                message={'This is custom Modal with success'}
-                headingText={'Modal Success'}
+                message={'You have successfully logged out!'}
+                headingText={'Message'}
                 buttonText={'Done'}
                 onConfirm={()=> setVisible(false)}
                 onClose={()=> setVisible(false)}

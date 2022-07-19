@@ -9,7 +9,10 @@ export const action = {
     hover: '#404040',
     pressed: '#707070',
   },
-
+  BLUE: '#0000ff',
+  DANGER: '#DC371E',
+  WARNING: '#FDAE32',
+  SUCCESS: '#A1D458',
   inactive: '#A0A0A0',
   default: '#FFFFFF',
   dark: '#000000',

@@ -19,5 +19,8 @@ export default {
     COMP_SEVENTEEN: 'CompSeventeen',
     COMP_EIGHTEEN: 'CompEighteen',
     COMP_NINETEEN: 'CompNineteen',
-    COMP_TWENTY: 'CompTwenty'
+    COMP_TWENTY: 'CompTwenty',
+    TEXTFIELD: 'TextField',
+    TOAST: 'Toast',
+    RADIOBUTTONGROUP: 'RadioButtonGroup'
 }

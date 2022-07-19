@@ -23,6 +23,10 @@ import CompSeventeen from '../Screens/compSeventeen.js';
 import CompEighteen from '../Screens/compEighteen';
 import CompNineteen from '../Screens/compNineteen';
 import CompTwenty from '../Screens/compTwenty';
+import textInputField from '../Screens/textInputField';
+import ToastMessage from '../Screens/toast';
+import RadioButtonGroup from '../Screens/radioButtonGroup';
+
 
 const Stack = createNativeStackNavigator();
 
@@ -51,7 +55,9 @@ export default Routes = () => {
                 <Stack.Screen name={navigationStrings.COMP_EIGHTEEN} component={CompEighteen} />
                 <Stack.Screen name={navigationStrings.COMP_NINETEEN} component={CompNineteen} />
                 <Stack.Screen name={navigationStrings.COMP_TWENTY} component={CompTwenty} />
-
+                <Stack.Screen name={navigationStrings.TEXTFIELD} component={textInputField}/>
+                <Stack.Screen name={navigationStrings.TOAST} component={ToastMessage}/>
+                <Stack.Screen name={navigationStrings.RADIOBUTTONGROUP} component={RadioButtonGroup}/>
 
             </Stack.Navigator>
         </NavigationContainer>

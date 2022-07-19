@@ -8,8 +8,8 @@ export default CompFifteen = ({ navigation }) => {
     const showAlertWithTitle = () => {
         return (
             AlertComponentWithTitle(
-                'Title',
-                'This is Message',
+                'Message',
+                'Do you want to proceed?',
                 'cancel',
                 () => console.log('negative button'), // or null
                 'Proceed',

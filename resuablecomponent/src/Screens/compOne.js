@@ -8,50 +8,38 @@ export default CompOne = ({ navigation }) => {
     const DATA = [
         {
           image_path: "https://images.pexels.com/photos/805002/pexels-photo-805002.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-          title: 'Kentailor',
-          subtitle: "vubub",
+          title: 'Rakesh',
+          subtitle: "Singh",
           numMsgs:10
         },
         {
           image_path: "https://cdn.pixabay.com/photo/2019/04/04/15/17/smartphone-4103051_960_720.jpg",
-          title: 'First Item',
-          subtitle: "Last Item",
+          title: 'Ranjeet',
+          subtitle: "Kumar",
           numMsgs:0
         },
         {
           image_path: "https://images.pexels.com/photos/805002/pexels-photo-805002.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-          title: 'First Item',
-          subtitle: "Last Item",
+          title: 'Akash',
+          subtitle: "Sinha",
           numMsgs:100
         },
         {
           image_path: "https://cdn.pixabay.com/photo/2019/04/04/15/17/smartphone-4103051_960_720.jpg",
-          title: 'First Item',
-          subtitle: "Last Item",
+          title: 'Ramu',
+          subtitle: "Singh",
           numMsgs:1
         },
         {
           image_path: "https://cdn.pixabay.com/photo/2019/04/04/15/17/smartphone-4103051_960_720.jpg",
-          title: 'First Item',
-          subtitle: "Last Item",
+          title: 'Mobile',
+          subtitle: "Phones",
           numMsgs:999
         },
         {
           image_path: "https://images.pexels.com/photos/805002/pexels-photo-805002.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-          title: 'First Item',
-          subtitle: "Last Item",
-          numMsgs:888
-        },
-        {
-          image_path: "https://cdn.pixabay.com/photo/2019/04/04/15/17/smartphone-4103051_960_720.jpg",
-          title: 'First Item',
-          subtitle: "Last Item",
-          numMsgs:888
-        },
-        {
-          image_path: "https://cdn.pixabay.com/photo/2019/04/04/15/17/smartphone-4103051_960_720.jpg",
-          title: 'First Item',
-          subtitle: "Last Item",
+          title: 'Developer',
+          subtitle: "Developer Group",
           numMsgs:888
         },
       ];
