@@ -26,6 +26,7 @@ import CompTwenty from '../Screens/compTwenty';
 import textInputField from '../Screens/textInputField';
 import ToastMessage from '../Screens/toast';
 import RadioButtonGroup from '../Screens/radioButtonGroup';
+import ScrollIndicator from '../Screens/customScrollIndicator';
 
 
 const Stack = createNativeStackNavigator();
@@ -58,6 +59,8 @@ export default Routes = () => {
                 <Stack.Screen name={navigationStrings.TEXTFIELD} component={textInputField}/>
                 <Stack.Screen name={navigationStrings.TOAST} component={ToastMessage}/>
                 <Stack.Screen name={navigationStrings.RADIOBUTTONGROUP} component={RadioButtonGroup}/>
+                <Stack.Screen name={navigationStrings.SCROLL_INDICATOR} component={ScrollIndicator}/>
+
 
             </Stack.Navigator>
         </NavigationContainer>

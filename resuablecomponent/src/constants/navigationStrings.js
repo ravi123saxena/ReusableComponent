@@ -22,5 +22,6 @@ export default {
     COMP_TWENTY: 'CompTwenty',
     TEXTFIELD: 'TextField',
     TOAST: 'Toast',
-    RADIOBUTTONGROUP: 'RadioButtonGroup'
+    RADIOBUTTONGROUP: 'RadioButtonGroup',
+    SCROLL_INDICATOR: 'ScrollIndicator'
 }
