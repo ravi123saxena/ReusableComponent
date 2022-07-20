@@ -27,6 +27,7 @@ import textInputField from '../Screens/textInputField';
 import ToastMessage from '../Screens/toast';
 import RadioButtonGroup from '../Screens/radioButtonGroup';
 import ScrollIndicator from '../Screens/customScrollIndicator';
+import DateTimePicker from '../Screens/DateTimePicker';
 
 
 const Stack = createNativeStackNavigator();
@@ -61,6 +62,7 @@ export default Routes = () => {
                 <Stack.Screen name={navigationStrings.RADIOBUTTONGROUP} component={RadioButtonGroup}/>
                 <Stack.Screen name={navigationStrings.SCROLL_INDICATOR} component={ScrollIndicator}/>
 
+                <Stack.Screen name={navigationStrings.DATE_PICKER} component={DateTimePicker}/>
 
             </Stack.Navigator>
         </NavigationContainer>

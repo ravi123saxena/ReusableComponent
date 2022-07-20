@@ -41,14 +41,14 @@ class CustomActionSheet extends Component {
         useNativeDriver: false,
         toValue: height,
         duration: openDuration,
-        useNativeDriver: true,
+        useNativeDriver: false,
       }).start();
     } else {
       Animated.timing(animatedHeight, {
         useNativeDriver: false,
         toValue: minClosingHeight,
         duration: closeDuration,
-        useNativeDriver: true,
+        useNativeDriver: false,
       }).start(() => {
         pan.setValue({ x: 0, y: 0 });
         this.setState({

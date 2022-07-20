@@ -23,5 +23,6 @@ export default {
     TEXTFIELD: 'TextField',
     TOAST: 'Toast',
     RADIOBUTTONGROUP: 'RadioButtonGroup',
-    SCROLL_INDICATOR: 'ScrollIndicator'
+    SCROLL_INDICATOR: 'ScrollIndicator',
+    DATE_PICKER: 'DatePicker'
 }

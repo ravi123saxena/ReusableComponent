@@ -47,7 +47,7 @@ export default CompThirteen = ({ navigation }) => {
     <View style={{ flex: 1 }}>
       <HeaderBar
         leftIconName={'chevron-left'}
-        text={'Home'}
+        text={'Action Sheet'}
         handleLeftIconPress={() => { navigation.goBack() }}
       />
       <Button title="OPEN BOTTOM SHEET" onPress={() => refRBSheet.current.open()} />
