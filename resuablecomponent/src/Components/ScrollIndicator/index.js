@@ -1,6 +1,7 @@
 import React, { useState, useRef } from 'react';
 import { ScrollView,  Text, View, Animated } from 'react-native';
-
+import { style } from '../TextInput/Styles';
+import styles from './styles';
 export default CustomScrollIndicator = ({title, data}) => {
   const [completeScrollBarHeight, setCompleteScrollBarHeight] = useState(1);
   const [visibleScrollBarHeight, setVisibleScrollBarHeight] = useState(0);
@@ -29,15 +30,9 @@ export default CustomScrollIndicator = ({title, data}) => {
 
   return (
     <>
-      <View style={{ flex: 1, backgroundColor: '#892cdc', paddingTop: 50 }}>
-        <View style={{ alignItems: 'center' }}>
-          <Text style={{ color: 'white', fontSize: 28, fontWeight: '700' }}>
-            {title}
-          </Text>
-        </View>
-        <View style={{ flex: 3, marginVertical: 20 }}>
+      <View style={styles.container}>
           <View
-            style={{ flex: 1, flexDirection: 'row', paddingHorizontal: 20 }}
+            style={styles.scrollContainer}
           >
             <ScrollView
               contentContainerStyle={{ paddingRight: 14 }}
@@ -59,31 +54,18 @@ export default CustomScrollIndicator = ({title, data}) => {
               )}
             >
               <Text
-                style={{
-                  fontSize: 22,
-                  color: 'white',
-                  fontWeight: '600',
-                  marginBottom: 12
-                }}
+                style={styles.scrollDataTitle}
               >
                 {data.title}
               </Text>
               <Text
-                style={{
-                  fontSize: 18,
-                  color: 'white'
-                }}
+                style={styles.description}
               >
                 {data.description}
               </Text>
             </ScrollView>
             <View
-              style={{
-                height: '100%',
-                width: 6,
-                backgroundColor: '#52057b',
-                borderRadius: 8
-              }}
+              style={styles.animContainer}
             >
               <Animated.View
                 style={{
@@ -96,8 +78,7 @@ export default CustomScrollIndicator = ({title, data}) => {
               />
             </View>
           </View>
-        </View>
-        <View style={{ flex: 4 }} />
+        {/* <View style={{ flex: 4 }} /> */}
       </View>
     </>
   );
