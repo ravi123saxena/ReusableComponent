@@ -3,7 +3,7 @@ import { View } from 'react-native';
 import CustomDropDown from '../Components/Button/DropDown'
 import HeaderBar from '../Components/Header';
 
-export default CompSix = ({ navigation }) => {
+export default DropDownComp = ({ navigation }) => {
     const countries = [
         'Egypt',
         'Canada',

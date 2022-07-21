@@ -3,7 +3,8 @@ import { View } from 'react-native';
 import ButtonIcon from '../Components/Button/ButtonIcon';
 import  CustomButton  from '../Components/Button/CustomButton'
 import HeaderBar from '../Components/Header';
-export default CompTwo = ({ navigation }) => {
+
+export default CustomButtonUI = ({ navigation }) => {
     return (
         <View style={{flex:1}}>
             <HeaderBar 

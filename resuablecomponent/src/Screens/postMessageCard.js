@@ -3,7 +3,7 @@ import { View, Text, FlatList } from 'react-native';
 import PostCard from '../Components/Cards/PostCard';
 import HeaderBar from '../Components/Header';
 
-export default CompFour = ({ navigation }) => {
+export default PostMessageCard = ({ navigation }) => {
     const data = [
         {
             id: 1,

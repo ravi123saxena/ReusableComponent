@@ -4,7 +4,7 @@ import { pickFiles } from '../Components/DocumentPicker';
 import HeaderBar from '../Components/Header';
 
 
-export default CompNineteen = ({ navigation }) => {
+export default PickerDocument = ({ navigation }) => {
     const [result, setResult] = useState([])
 
     const PicFilesCallBack = (data) => {

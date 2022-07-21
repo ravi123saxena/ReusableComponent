@@ -3,7 +3,7 @@ import { View } from 'react-native';
 import HeaderBar from '../Components/Header';
 import SwitchControl from '../Components/Switch';
 
-export default CompFourteen = ({ navigation }) => {
+export default Switch = ({ navigation }) => {
     const [toggle, setToggle] = useState(false)
    
     return (

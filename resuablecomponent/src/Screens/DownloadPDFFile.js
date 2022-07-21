@@ -15,7 +15,7 @@ import HeaderBar from '../Components/Header';
 const fileUrl = 'https://www.techup.co.in/wp-content/uploads/2020/01/techup_logo_72-scaled.jpg';
  
 
-export default CompTwenty = ({ navigation }) => {
+export default DownloadPDFFile = ({ navigation }) => {
 
     const fileDownloadCallback = (result) => {
         if(result) {
@@ -60,7 +60,7 @@ export default CompTwenty = ({ navigation }) => {
         <>
             <HeaderBar
                 leftIconName={'chevron-left'}
-                text={'Image Card'}
+                text={'Download PDF'}
                 handleLeftIconPress={() => navigation.goBack()} />
             <View style={styles.container}>
             <View style={{ alignItems: 'center' }}>

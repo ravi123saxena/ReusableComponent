@@ -17,7 +17,7 @@ Platform.select({
   android: () => StatusBar.setBackgroundColor('#01579B'),
 })();
 
-export default CompSeven = ({ navigation }) => {
+export default LoadingComp = ({ navigation }) => {
     return (
         <View style={{ flex: 1 }}>
             <HeaderBar

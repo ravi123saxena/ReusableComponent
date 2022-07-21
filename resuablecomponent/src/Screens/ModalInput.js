@@ -5,7 +5,7 @@ import { DisplayModalWithTextInput } from '../Components/Modal/ModalWithTextInpu
 import { styles } from '../Components/styles/styles';
 import { STATUS } from '../constants/constants';
 
-export default CompEight = ({ navigation }) => {
+export default ModalInput = ({ navigation }) => {
     const [visible, setVisible] = useState(true)
     const [templateName, setTemplateName] = useState({ value: '', borderColor: STATUS.inactive, error: '' })
     const [templateDescription, setTemplateDescription] = useState({ value: '', borderColor: STATUS.inactive, error: '' })

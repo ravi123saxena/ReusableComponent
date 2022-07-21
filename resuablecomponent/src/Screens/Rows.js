@@ -3,7 +3,7 @@ import { View } from 'react-native';
 import HeaderBar from '../Components/Header';
 import InfoBlock from '../Components/InfoBlock';
 
-export default CompSeven = ({ navigation }) => {
+export default Rows = ({ navigation }) => {
     return (
         <View style={{ flex: 1 }}>
             <HeaderBar

@@ -5,7 +5,7 @@ import { Button, View, Text, FlatList, StyleSheet, TouchableOpacity } from "reac
 import CustomActionSheet from '../Components/ActionSheet'
 import MDIcon from "react-native-vector-icons/MaterialIcons";
 
-export default CompThirteen = ({ navigation }) => {
+export default ActionSheetComp = ({ navigation }) => {
   const refRBSheet = useRef();
   let lists = [
     {

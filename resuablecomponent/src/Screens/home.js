@@ -14,12 +14,12 @@ export default Home = ({ navigation, routes }) => {
     'CHECKBOX', 'ACTION SHEET', 'SWITCH BUTTON', 'CUSTOM ALERT', 'CONTEXT MENU', 'INFO BLOCK', 'IMAGE PICKER', 'DOCUMENT PICKER', 'DOWNLOAD PDF',
     'TEXTFIELD', 'CUSTOM TOAST', 'RADIO BUTTON GROUP', 'CUSTOM SCROLL INDICATOR', 'DATE_PICKER']
 
-  const navigationArray = [navigationStrings.COMP_ONE, navigationStrings.COMP_TWO, navigationStrings.COMP_THREE,
-  navigationStrings.COMP_FOUR, navigationStrings.COMP_FIVE, navigationStrings.COMP_SIX, navigationStrings.COMP_SEVEN,
-  navigationStrings.COMP_EIGHT, navigationStrings.COMP_NINE, navigationStrings.COMP_TEN, navigationStrings.COMP_ELEVEN,
-  navigationStrings.COMP_TWELVE, navigationStrings.COMP_THIRTEEN, navigationStrings.COMP_FOURTEEN, navigationStrings.COMP_FIFTEEN,
-  navigationStrings.COMP_SIXTEEN, navigationStrings.COMP_SEVENTEEN, navigationStrings.COMP_EIGHTEEN, navigationStrings.COMP_NINETEEN,
-  navigationStrings.COMP_TWENTY, navigationStrings.TEXTFIELD, navigationStrings.TOAST, navigationStrings.RADIOBUTTONGROUP,
+  const navigationArray = [navigationStrings.CHAT_CARD, navigationStrings.CUSTOM_BUTTON, navigationStrings.CARD_IMAGE,
+  navigationStrings.POST_CARD, navigationStrings.SHADOW_CARD, navigationStrings.DROP_DOWN, navigationStrings.LOADING,
+  navigationStrings.Modal_Text, navigationStrings.IMAGE_MODAL, navigationStrings.MODAL_INPUT, navigationStrings.CUSTOM_DIALOG,
+  navigationStrings.CHECK_BOX, navigationStrings.ACTION_SHEET, navigationStrings.SWITCH, navigationStrings.ALERT_DIALOG,
+  navigationStrings.TOOLTIP, navigationStrings.ROWS, navigationStrings.PICKER, navigationStrings.PICK_DOCUMENT,
+  navigationStrings.DOWNLOAD_PDF, navigationStrings.TEXTFIELD, navigationStrings.TOAST, navigationStrings.RADIOBUTTONGROUP,
   navigationStrings.SCROLL_INDICATOR, navigationStrings.DATE_PICKER]
 
 

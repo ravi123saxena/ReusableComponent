@@ -3,7 +3,7 @@ import { View } from 'react-native';
 import HeaderBar from '../Components/Header';
 import { DisplayModal } from '../Components/Modal/Modal';
 
-export default CompEight = ({ navigation }) => {
+export default ModalTextComp = ({ navigation }) => {
     const [visible, setVisible] = useState(true)
     const handleSecondaryButton = () => {
         setVisible(false)

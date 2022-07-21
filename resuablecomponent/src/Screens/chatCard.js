@@ -4,7 +4,7 @@ import { View, StyleSheet, FlatList } from 'react-native';
 import ChatCard from '../Components/Cards/ChatCard';
 import HeaderBar from '../Components/Header';
 
-export default CompOne = ({ navigation }) => {
+export default ChatCardUI = ({ navigation }) => {
     const DATA = [
         {
           image_path: "https://images.pexels.com/photos/805002/pexels-photo-805002.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",

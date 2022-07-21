@@ -3,7 +3,7 @@ import { View } from 'react-native';
 import HeaderBar from '../Components/Header';
 import { DisplayModalWithImage } from '../Components/Modal/ModalWithImage';
 
-export default CompNine = ({ navigation }) => {
+export default ImageModalWithTitle = ({ navigation }) => {
     const [visible, setVisible] = useState(true)
    
     return (

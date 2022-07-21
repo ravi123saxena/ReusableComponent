@@ -3,7 +3,7 @@ import { View } from 'react-native';
 import HeaderBar from '../Components/Header';
 import CustomAlertDialogbox from '../Components/Modal/CustomAlertDialogbox';
 
-export default CompEleven = ({ navigation }) => {
+export default CustomDialogComp = ({ navigation }) => {
     const [visible, setVisible] = useState(true)
     const handleCancel = () => {
         setVisible(false)

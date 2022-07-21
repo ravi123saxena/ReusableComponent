@@ -3,7 +3,7 @@ import { View } from 'react-native';
 import ImageCardWithShadowTitle from '../Components/Cards/ImageCardWithShadowTitle';
 import HeaderBar from '../Components/Header';
 
-export default CompFive = ({ navigation }) => {
+export default ShadowCard = ({ navigation }) => {
     return (
         <>
             <HeaderBar

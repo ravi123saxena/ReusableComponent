@@ -4,7 +4,7 @@ import HeaderBar from '../Components/Header';
 import AlertComponentWithTitle from '../Components/Alert/AlertComponentWithTitle';
 import AlertComponent from '../Components/Alert/AlertComponent';
 
-export default CompFifteen = ({ navigation }) => {
+export default AlertDialog = ({ navigation }) => {
     const showAlertWithTitle = () => {
         return (
             AlertComponentWithTitle(

@@ -11,7 +11,7 @@ export default DateTimePicker = ({ navigation, route }) => {
         <View style={{ flex: 1 }}>
             <HeaderBar
                 leftIconName={'chevron-left'}
-                text={'Custom Scroll Indcator'}
+                text={'Custom Date Picker'}
                 handleLeftIconPress={() => navigation.goBack()} />
 
             <View style={styles.container}>
@@ -62,6 +62,7 @@ const styles = StyleSheet.create({
     container: {
         flex: 1,
         justifyContent: 'center',
+        alignItems:'center',
         margin: 20,
         backgroundColor: '#F5FCFF'
 

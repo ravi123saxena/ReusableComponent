@@ -3,7 +3,7 @@ import HeaderBar from "../Components/Header";
 import { View } from "react-native";
 import CheckBox from "../Components/Checkbox";
 
-export default CompTwelve = ({ navigation, route }) => {
+export default CheckBoxComp = ({ navigation, route }) => {
    let [checked, setChecked] = useState(true)
     return (
         <View style={{ flex: 1 }}>

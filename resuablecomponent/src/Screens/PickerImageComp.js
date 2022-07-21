@@ -4,7 +4,7 @@ import HeaderBar from '../Components/Header';
 import { pickSingleWithCamera, pickSingle, pickMultiple } from '../Components/Gallery'
 
 
-export default CompEighteen = ({ navigation }) => {
+export default PickerImageComp = ({ navigation }) => {
     const [image, setImage] = useState({ uri: '', width: 0, height: 0, mime: 'image/jpg', images: [] })
     const ImagePicCallBack = (data) => {
         setImage(data)

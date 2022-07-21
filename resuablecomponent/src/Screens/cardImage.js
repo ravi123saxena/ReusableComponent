@@ -3,7 +3,7 @@ import { View } from 'react-native';
 import ImageCard from '../Components/Cards/ImageCard';
 import HeaderBar from '../Components/Header';
 
-export default CompThree = ({ navigation }) => {
+export default CardImage = ({ navigation }) => {
     return (
         <>
             <HeaderBar

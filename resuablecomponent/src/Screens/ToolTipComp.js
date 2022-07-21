@@ -3,7 +3,7 @@ import { View } from 'react-native';
 import HeaderBar from '../Components/Header';
 import Tooltip from '../Components/ContextMenu';
 
-export default CompSixteen = ({ navigation }) => {
+export default ToolTipComp = ({ navigation }) => {
     const [visible, setVisible] = useState(false);
 
     const hideMenu = () => setVisible(false);
