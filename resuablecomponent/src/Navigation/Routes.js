@@ -28,6 +28,7 @@ import Rows from '../Screens/Rows.js';
 import PickerImageComp from '../Screens/PickerImageComp';
 import PickerDocument from '../Screens/PickerDocument';
 import DownloadPDFFile from '../Screens/DownloadPDFFile';
+import ChartComponent from '../Screens/Charts/ChartComponent';
 
 
 const Stack = createNativeStackNavigator();
@@ -63,6 +64,8 @@ export default Routes = () => {
                 <Stack.Screen name={navigationStrings.SCROLL_INDICATOR} component={ScrollIndicator}/>
 
                 <Stack.Screen name={navigationStrings.DATE_PICKER} component={DateTimePicker}/>
+                <Stack.Screen name={navigationStrings.LINECHART} component={ChartComponent}/>
+
 
             </Stack.Navigator>
         </NavigationContainer>

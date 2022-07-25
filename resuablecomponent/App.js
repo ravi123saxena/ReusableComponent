@@ -1,8 +1,12 @@
 import React, { useState } from 'react';
-import { View } from 'react-native'
+import { LogBox } from 'react-native'
 import OnBoarding from './src/Components/OnBoarding';
 import Routes from './src/Navigation/Routes';
 
+LogBox.ignoreLogs([
+  "Require cycle: node_modules\victory-vendor\lib-vendor\d3-interpolate\src\value.js",
+   
+]);
 
 const slides = [
   {
@@ -25,6 +29,8 @@ const slides = [
   }
 ]
 
+
+
 export default App = () => {
   const [visible, setVisible] = useState(false)
   return (
@@ -36,5 +42,6 @@ export default App = () => {
       /> : <Routes />}
     </>
   );
+
 };
 

@@ -24,5 +24,6 @@ export default {
     TOAST: 'Toast',
     RADIOBUTTONGROUP: 'RadioButtonGroup',
     SCROLL_INDICATOR: 'ScrollIndicator',
-    DATE_PICKER: 'DatePicker'
+    DATE_PICKER: 'DatePicker',
+    LINECHART: 'LineChart'
 }

@@ -12,7 +12,7 @@ export default Home = ({ navigation, routes }) => {
   const DATA = ['CHAT CARD', 'CUSTOM BUTTON', 'IMAGE CARD', 'POST CARD', 'IMAGE CARD WITH SHADOW TITLE',
     'DROPDOWN BUTTON', 'LOADING', 'MODAL WITH TEXT', 'MODAL WITH IMAGE', 'MODAL WITH TEXTINPUT', 'CUSTOM DIALOG BOX',
     'CHECKBOX', 'ACTION SHEET', 'SWITCH BUTTON', 'CUSTOM ALERT', 'CONTEXT MENU', 'INFO BLOCK', 'IMAGE PICKER', 'DOCUMENT PICKER', 'DOWNLOAD PDF',
-    'TEXTFIELD', 'CUSTOM TOAST', 'RADIO BUTTON GROUP', 'CUSTOM SCROLL INDICATOR', 'DATE_PICKER']
+    'TEXTFIELD', 'CUSTOM TOAST', 'RADIO BUTTON GROUP', 'CUSTOM SCROLL INDICATOR', 'DATE_PICKER', 'CHARTS']
 
   const navigationArray = [navigationStrings.CHAT_CARD, navigationStrings.CUSTOM_BUTTON, navigationStrings.CARD_IMAGE,
   navigationStrings.POST_CARD, navigationStrings.SHADOW_CARD, navigationStrings.DROP_DOWN, navigationStrings.LOADING,
@@ -20,7 +20,7 @@ export default Home = ({ navigation, routes }) => {
   navigationStrings.CHECK_BOX, navigationStrings.ACTION_SHEET, navigationStrings.SWITCH, navigationStrings.ALERT_DIALOG,
   navigationStrings.TOOLTIP, navigationStrings.ROWS, navigationStrings.PICKER, navigationStrings.PICK_DOCUMENT,
   navigationStrings.DOWNLOAD_PDF, navigationStrings.TEXTFIELD, navigationStrings.TOAST, navigationStrings.RADIOBUTTONGROUP,
-  navigationStrings.SCROLL_INDICATOR, navigationStrings.DATE_PICKER]
+  navigationStrings.SCROLL_INDICATOR, navigationStrings.DATE_PICKER, navigationStrings.LINECHART]
 
 
   const renderItems = ({ item, index }) => {

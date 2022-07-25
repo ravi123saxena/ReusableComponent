@@ -39,6 +39,7 @@ export default RadioButtonGroup = ({ navigation, route }) => {
             <RadioGroup
                 horizontal
                 options={radiogroup_options}
+                onChange={(value) => console.log(value)}
             />
             </View>
         </View>
