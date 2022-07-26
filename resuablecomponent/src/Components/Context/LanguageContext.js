@@ -12,12 +12,14 @@ const AuthContext = createContext({
 })
 
 const AppContextProvider = ({ language, login, setLanguage, setLogin, children }) => {
-    return(<LanguageContext.Provider value={{language, setLanguage}}>
-        <AuthContext.Provider value={{login, setLogin}}>
+    return (
+        <LanguageContext.Provider value={{ language, setLanguage }}>
+            <AuthContext.Provider value={{ login, setLogin }}>
                 {children}
-        </AuthContext.Provider>
-    </LanguageContext.Provider>)
+            </AuthContext.Provider>
+        </LanguageContext.Provider>
+    )
 }
 
 
-export { AppContextProvider, LanguageContext, AuthContext};
+export { AppContextProvider, LanguageContext, AuthContext };
