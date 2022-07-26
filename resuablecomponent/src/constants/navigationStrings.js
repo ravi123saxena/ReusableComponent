@@ -25,5 +25,6 @@ export default {
     RADIOBUTTONGROUP: 'RadioButtonGroup',
     SCROLL_INDICATOR: 'ScrollIndicator',
     DATE_PICKER: 'DatePicker',
-    LINECHART: 'LineChart'
+    LINECHART: 'LineChart',
+    LANGUAGE: 'Language',
 }

@@ -29,7 +29,7 @@ import PickerImageComp from '../Screens/PickerImageComp';
 import PickerDocument from '../Screens/PickerDocument';
 import DownloadPDFFile from '../Screens/DownloadPDFFile';
 import ChartComponent from '../Screens/Charts/ChartComponent';
-
+import LanguageComponent from '../Screens/LanguageComponent';
 
 const Stack = createNativeStackNavigator();
 
@@ -65,6 +65,8 @@ export default Routes = () => {
 
                 <Stack.Screen name={navigationStrings.DATE_PICKER} component={DateTimePicker}/>
                 <Stack.Screen name={navigationStrings.LINECHART} component={ChartComponent}/>
+                <Stack.Screen name={navigationStrings.LANGUAGE} component={LanguageComponent}/>
+
 
 
             </Stack.Navigator>

@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { LogBox } from 'react-native'
+import { LanguageProvider, LoginProvider, AppContextProvider } from './src/Components/Context/LanguageContext';
 import OnBoarding from './src/Components/OnBoarding';
 import Routes from './src/Navigation/Routes';
 
@@ -33,13 +34,26 @@ const slides = [
 
 export default App = () => {
   const [visible, setVisible] = useState(false)
+  const [language, setLanguage] = useState('JavaScript')
+  const [login, setLogin] = useState(false)
+  
+  const providerData = {
+    language: language,
+    setLanguage: setLanguage,
+    setLogin: setLogin,
+    login: login,
+  }
   return (
     <>
       {!visible ? <OnBoarding
         slides={slides}
         visible={visible}
         onDone={(value) => setVisible(value)}
-      /> : <Routes />}
+      /> : 
+        <AppContextProvider {...providerData}> 
+              <Routes />
+        </AppContextProvider>
+      }
     </>
   );
 
