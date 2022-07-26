@@ -30,6 +30,8 @@ import PickerDocument from '../Screens/PickerDocument';
 import DownloadPDFFile from '../Screens/DownloadPDFFile';
 import ChartComponent from '../Screens/Charts/ChartComponent';
 import LanguageComponent from '../Screens/LanguageComponent';
+import CounterHoc from '../Screens/counterHoc';
+import CustomHooks from '../Screens/CustomHooks';
 
 const Stack = createNativeStackNavigator();
 
@@ -66,6 +68,8 @@ export default Routes = () => {
                 <Stack.Screen name={navigationStrings.DATE_PICKER} component={DateTimePicker}/>
                 <Stack.Screen name={navigationStrings.LINECHART} component={ChartComponent}/>
                 <Stack.Screen name={navigationStrings.LANGUAGE} component={LanguageComponent}/>
+                <Stack.Screen name={navigationStrings.COUNTER_HOC} component={CounterHoc}/>
+                <Stack.Screen name={navigationStrings.CUSTOM_HOOKS} component={CustomHooks}/>
 
 
 

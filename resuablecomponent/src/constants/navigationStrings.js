@@ -27,4 +27,6 @@ export default {
     DATE_PICKER: 'DatePicker',
     LINECHART: 'LineChart',
     LANGUAGE: 'Language',
+    COUNTER_HOC: 'CounterHoc',
+    CUSTOM_HOOKS: 'Hooks',
 }
