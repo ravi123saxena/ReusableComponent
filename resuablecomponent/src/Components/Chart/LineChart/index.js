@@ -1,29 +1,27 @@
 import React from "react";
-import { View } from "react-native";
-import {  VictoryLine, VictoryChart, VictoryTheme } from "victory-native";
+import {
+  LineChart,
+} from "react-native-gifted-charts";
+import { View , Alert} from "react-native";
 
-export default LineChart = ({data, containerStyle, xPos, yPos, width}) => {
-    return(
-        <View style={[styles.container, containerStyle]}>
-        <VictoryChart domainPadding={10} width={width} theme={VictoryTheme.material}>
-          <VictoryLine 
-            animate={{
-              onLoad: {duration: 1000},
-              duration: 1000, 
-              easing: "bounce"
-            }}
-            style={{
-              data: {
-                stroke: 'red',
-                strokeWidth: 3
-              }
-            }} 
-            data={data} 
-            x={xPos} 
-            y={yPos} 
-          />
-        </VictoryChart>
+
+export default DisplayLineChart = ({ data, showAreaChart, onDataPointClick, isBazier, width, height }) => {
+  return (
+      <View>
+        <LineChart 
+          data={data}
+          thickness={1}
+          width={width}
+          height={height}
+          curved={isBazier}
+          pressEnabled
+          dataPointsRadius={5}
+          areaChart={showAreaChart}
+          onPress={(item, index) => {
+            onDataPointClick(item)
+          }}
+        />
       </View>
-    )
+  )
 }
 

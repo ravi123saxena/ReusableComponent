@@ -1,28 +1,24 @@
 import React from "react";
-import { View } from "react-native";
-import { VictoryChart, VictoryTheme, VictoryBar } from "victory-native";
 
-export default BarChart = ({ data, containerStyle, xPos, yPos, width }) => {
+import { BarChart } from "react-native-gifted-charts";
+
+
+export default DisplayBarChart = ({ data, onDataPointClick, width, height }) => {
     return (
-        <View style={[styles.container, containerStyle]}>
-            <VictoryChart domainPadding={10} width={width} theme={VictoryTheme.material}>
-                <VictoryBar
-                    animate={{
-                        onLoad: { duration: 1000 },
-                        duration: 1000,
-                        easing: "bounce"
-                    }}
-                    style={{
-                        data: {
-                            fill: ({ datum }) => datum.fill || 'black'
-                        }
-                    }}
-                    data={data}
-                    x={xPos}
-                    y={yPos}
-                />
-            </VictoryChart>
-        </View>
+        <BarChart
+            data={data}
+            width={width}
+            height={height}
+            yAxisThickness={1}
+            barBorderRadius={4}
+            xAxisThickness={1}
+            frontColor={'rgba(100,220,100,1)'}
+            topColor={'rgba(100,255,100,0.8)'}
+            sideColor={'rgba(100,240,100,1)'}
+            onPress={(item, index) => {
+                onDataPointClick(item)
+            }}
+        />
     )
 }
 

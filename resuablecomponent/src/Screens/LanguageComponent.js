@@ -28,7 +28,7 @@ export default LanguageComponent = ({ navigation }) => {
                <View style={{marginTop: 20}}></View>
                <Text>Login: {login ? 'true' : 'false'}</Text>
                <View style={{marginTop: 20}}></View>
-               <Button  title={buttonTitle} onPress={() =>onLoginPress()}/>
+               <Button  title={login ? 'Login' : 'Logout'} onPress={() =>onLoginPress()}/>
             </View>
         </View>
     );
