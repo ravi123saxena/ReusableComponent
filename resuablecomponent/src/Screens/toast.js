@@ -1,38 +1,28 @@
-import React, {useState } from "react";
+import React, { useState } from "react";
 import HeaderBar from "../Components/Header";
-import { View } from "react-native";
-import Snackbar from "../Components/Toast";
+import { Button, View } from "react-native";
+import Toast from 'react-native-toast-message'
 
 export default ToastMessage = ({ navigation, route }) => {
-    const [openSnackbar, setOpenSnackBar] = useState(true)
+    const showToast = () => {
+        Toast.show({
+            type: 'success',
+            position: 'bottom',
+            text1: 'Hello',
+            text2: 'This is some something 👋',
+            visibilityTime: 2000,
+            autoHide: true,
+            topOffset: 30,
+            bottomOffset: 40,
+        })
+    }
     return (
         <View>
             <HeaderBar
                 leftIconName={'chevron-left'}
                 text={'Custom Toast'}
                 handleLeftIconPress={() => navigation.goBack()} />
-            <Snackbar
-                visible={openSnackbar}
-                position="top"
-                type={'warning'}
-                message={'You got new message!'}
-                onHide={() => setOpenSnackBar(false)}
-            />
-            <View style={{marginTop: 20}}/>
-            <Snackbar
-                visible={openSnackbar}
-                position="top"
-                type={'success'}
-                message={'Congratuallation! You have successfully created item.'}
-                onHide={() => setOpenSnackBar(false)}
-            />
-            <View style={{marginTop: 20}}/>
-            <Snackbar
-                visible={openSnackbar}
-                position="top"
-                message={'You have deleted item successfully'}
-                onHide={() => setOpenSnackBar(false)}
-            />
+            <Button title="Show Toast" onPress={()=>showToast()}/>    
         </View>
     );
 }

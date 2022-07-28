@@ -1,20 +1,12 @@
 import React, { useState } from 'react';
 import { View, Text, Alert } from 'react-native';
-import AreaChart from '../../Components/Chart/AreaChart';
 import DisplayBarChart from '../../Components/Chart/BarChart';
+import DisplayStackedBarChart from '../../Components/Chart/StackBar'
 import DisplayLineChart from '../../Components/Chart/LineChart';
 import DisplayPieChart from '../../Components/Chart/PieChart';
 import HeaderBar from '../../Components/Header';
 import RadioGroup from '../../Components/RadioGroup/radiogroup';
 import { DEVICE_WIDTH } from '../../constants/constants';
-
-const data = [
-    { year: '2011', earnings: 13000, fill: 'red' },
-    { year: '2012', earnings: 16500, fill: 'blue' },
-    { year: '2013', earnings: 14250, fill: 'green' },
-    { year: '2014', earnings: 19000, fill: 'pink' }
-];
-
 
 const LineChartData = [
     {value:50, label: 'Jan'}, 
@@ -25,31 +17,38 @@ const LineChartData = [
     {value:70, label: 'JUNE'}
 ];
 
-const BarChartData = {
-    labels: ["Jan", "Feb", "Mar", "Apr", "May", "June"],
-    datasets: [
-      {
-        data: [70, 78, 60, 80, 99, 90]
-      }
-    ]
-  };
-
-const chartConfig = {
-    backgroundColor: "#fff",
-    backgroundGradientFrom: "#fff",
-    backgroundGradientTo: "#fff",
-    decimalPlaces: 2, // optional, defaults to 2dp
-    color: (opacity = 1) => `rgba(0, 0, 0, ${opacity})`,
-    labelColor: (opacity = 1) => `rgba(0, 0, 0, ${opacity})`,
-    propsForBackgroundLines: {
-        strokeDasharray: "" // solid background lines with no dashes
+const stackData = [
+    {
+      stacks: [
+        {value: 10, color: 'orange'},
+        {value: 20, color: '#4ABFF4', marginBottom: 2},
+      ],
+      label: 'Jan',
     },
-    propsForDots: {
-        r: "6",
-        strokeWidth: "2",
-        stroke: "#000"
+    {
+      stacks: [
+        {value: 10, color: '#4ABFF4'},
+        {value: 11, color: 'orange', marginBottom: 2},
+        {value: 15, color: '#28B2B3', marginBottom: 2},
+      ],
+      label: 'Mar',
     },
-}
+    {
+      stacks: [
+        {value: 14, color: 'orange'},
+        {value: 18, color: '#4ABFF4', marginBottom: 2},
+      ],
+      label: 'Feb',
+    },
+    {
+      stacks: [
+        {value: 7, color: '#4ABFF4'},
+        {value: 11, color: 'orange', marginBottom: 2},
+        {value: 10, color: '#28B2B3', marginBottom: 2},
+      ],
+      label: 'Mar',
+    },
+  ];
 
 const PieChartData = [
     {
@@ -92,7 +91,8 @@ const PieChartData = [
 var radio_option = [
     { id: 0, label: 'Line Chart' },
     { id: 1, label: 'Bar Chart' },
-    { id: 2, label: 'Pie Chart' },
+    { id: 2, label: 'Stack BarChart'},
+    { id: 3, label: 'Pie Chart' },
 ];
 
 export default ChartComponent = ({ navigation }) => {
@@ -131,7 +131,13 @@ export default ChartComponent = ({ navigation }) => {
                     width={DEVICE_WIDTH - 60}
                     height={260}
                 />}
-                {chart.id == 2 && <DisplayPieChart
+                 {chart.id == 2 && <DisplayStackedBarChart
+                    data={stackData}
+                    onDataPointClick={({label, value}) => Alert.alert('Message', `You clicked  ${label} : ${value}`)}
+                    width={DEVICE_WIDTH - 60}
+                    height={260}
+                />}
+                {chart.id == 3 && <DisplayPieChart
                     data={PieChartData}
                     showDonut={false}
                     onDataPointClick={({label, value}) => Alert.alert('Message', `You clicked  ${label} : ${value}`)}
