@@ -32,6 +32,10 @@ import ChartComponent from '../Screens/Charts/ChartComponent';
 import LanguageComponent from '../Screens/LanguageComponent';
 import CounterHoc from '../Screens/counterHoc';
 import CustomHooks from '../Screens/CustomHooks';
+import Location from '../Map/Location';
+import ChooseLocation from '../Map/ChooseLocation';
+import TimeLineView from '../Screens/timeline';
+
 
 const Stack = createNativeStackNavigator();
 
@@ -70,6 +74,10 @@ export default Routes = () => {
                 <Stack.Screen name={navigationStrings.LANGUAGE} component={LanguageComponent}/>
                 <Stack.Screen name={navigationStrings.COUNTER_HOC} component={CounterHoc}/>
                 <Stack.Screen name={navigationStrings.CUSTOM_HOOKS} component={CustomHooks}/>
+
+                <Stack.Screen name={navigationStrings.LOCATION_MAP} component={Location}/>
+                <Stack.Screen name={navigationStrings.CHOOSE_LOCATION} component={ChooseLocation}/>
+                <Stack.Screen name={navigationStrings.TIME_LINE} component={TimeLineView}/>
 
 
 

@@ -4,6 +4,7 @@ import { LanguageProvider, LoginProvider, AppContextProvider } from './src/Compo
 import OnBoarding from './src/Components/OnBoarding';
 import Routes from './src/Navigation/Routes';
 import Toast, { BaseToast, ErrorToast } from 'react-native-toast-message';
+import FlashMessage from 'react-native-flash-message';
 
 LogBox.ignoreLogs([
   "Require cycle: node_modules\victory-vendor\lib-vendor\d3-interpolate\src\value.js",
@@ -89,6 +90,8 @@ export default App = () => {
         </AppContextProvider>
       }
       <Toast config={toastConfig} />
+      <FlashMessage position="top"
+      />
     </>
   );
 

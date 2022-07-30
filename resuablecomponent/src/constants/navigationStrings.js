@@ -29,4 +29,7 @@ export default {
     LANGUAGE: 'Language',
     COUNTER_HOC: 'CounterHoc',
     CUSTOM_HOOKS: 'Hooks',
+    LOCATION_MAP: 'LocationMap',
+    CHOOSE_LOCATION: 'chooseLocation',
+    TIME_LINE: 'TimeLine',
 }
